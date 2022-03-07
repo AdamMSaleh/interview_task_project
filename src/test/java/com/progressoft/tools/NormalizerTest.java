@@ -29,6 +29,7 @@ public class NormalizerTest {
         return normalizer;
     }
 
+
     @Test
     public void givenInvalidInput_whenZscore_thenThrowException() throws IOException {
         Normalizer normalizer = normalizer();
